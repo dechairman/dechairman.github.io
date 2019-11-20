@@ -1,0 +1,37 @@
+# SITE CONFIGURATION
+
+url: "https://dechairman.github.io"
+
+author: Abass Abdul
+title: dechairman.github.io
+logo:
+description: "Abass Abdul's Security Blog"
+
+excerpt_separator: "<!--more-->"
+
+social:
+    -icon:            twitter
+     url:             https://twitter.com/hajjbass
+     description:     Twitter
+    -icon:            github
+     url:             https://github.com/dechairman
+     description:     Github
+    -icon:            envelope
+     url:             mailto:hajjbass@gmail.com
+     description:     Email
+     
+     
+permalink: /:year/:month/:title/
+
+paginate: 16
+paginate_path: "path/:num"
+post_navigation: true
+
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+    
+exclude:
+    - Gemfile
+    - Gemfile.lock
