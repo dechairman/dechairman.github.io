@@ -1,41 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-        <meta charset="utf-8">
-        <title>Abass Abdul's security blog | dechairman.github.io</title>
-	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-        <meta name="description" content="Abass Abdul's security blog">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        	<!-- CSS -->
-	<link rel="stylesheet" href="/css/main.css">
-
-	<!--Favicon-->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-	<!-- Canonical -->
-	<link rel="canonical" href="https://dechairman.github.io/">
-
-	<!-- RSS -->
-	<link rel="alternate" type="application/atom+xml" title="dechairman.github.io" href="https://dechairman.github.io/feed.xml">
-
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <body>
-	<nav>
-    		<ul>
-        		<li><a href="/">About</a></li>
-	        	<li><a href="/about">Twitter</a></li>
-        		<li><a href="/email">email</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-	</nav>
-        <h1>
-            Security Blog
-        </h1>
-        <p>
-            My Time Machine
-        </p>
-    </body>
-</head>    
-</html>
+---
+title: Abass Abdul's security blog
+layout: default
+---
+<div class="posts">
+	{% for post in paginator.posts %}
+	<article class="excerpt">
+		<header>
+			<h1>
+				<a class="post-link" href="{{ post.url }}">
+					{{ post.title }}
+				</a>
+			</h1>
+			{% include byline_dateline.html page=post %}
+		</header>
+		<div class="excerpt">
+			{{ post.excerpt }}
+		</div>
+		<div class="continue">
+			<a href="{{ post.url }}">Continue reading...</a>
+		</div>
+	</article>
+	{% endfor %}
+</div>
+{% if paginator.total_pages > 1 %}
+<div class="left-right-navigation">
+	{% if paginator.previous_page_path %}
+	<a class="left" href="{{ paginator.previous_page_path | replace: '//', '/' }}">
+		<i class="fa fa-chevron-left"></i>
+		<div>Newer</div>
+	</a>
+	{% endif %}
+	{% if paginator.next_page_path %}
+	<a class="right" href="{{ paginator.next_page_path | replace: '//', '/' }}">
+		<div>Older</div>
+		<i class="fa fa-chevron-right"></i>
+	</a>
+	{% endif %}
+</div>
+{% endif %}
