@@ -8,17 +8,6 @@ logo:
 description: "Abass Abdul's Security Blog"
 
 excerpt_separator: "<!--more-->"
-
-social:
-    -icon:            twitter
-     url:             https://twitter.com/hajjbass
-     description:     Twitter
-    -icon:            github
-     url:             https://github.com/dechairman
-     description:     Github
-    -icon:            envelope
-     url:             mailto:hajjbass@gmail.com
-     description:     Email
      
      
 permalink: /:year/:month/:title/
