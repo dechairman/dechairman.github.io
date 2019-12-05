@@ -3,11 +3,22 @@
 url: "https://dechairman.github.io"
 
 author: Abass Abdul
-title: dechairman.github.io
-logo:
+title:  dechairman.github.io
+logo:   dechairman.svg
 description: "Abass Abdul's Security Blog"
 
 excerpt_separator: "<!--more-->"
+
+social:
+  - icon:           twitter
+    url:            https://twitter.com/0xS1r
+    description:    Twitter
+  - icon:           github
+    url:            https://github.com/dechairman
+    description:    Github
+  - icon:           envelope
+    url:            mailto:hajjbass@gmail.com
+    description:    Email
      
      
 permalink: /:year/:month/:title/
