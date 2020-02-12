@@ -32,8 +32,7 @@ See error on the last line of the image below.
 "Rejecting incoming connection"
            caption =
 "Rejecting incoming connection."
-%}. 
-  
+%} 
 Above, I setup debugserver to accept a connection from any IP address so long as it was connecting over port 9999 to attach to a specific process id. The connection was rejected as shown in the image above with the error:
 
 Error: rejecting incoming connection from ::ffff:192.168.1.224 (expecting ::1)
@@ -48,8 +47,7 @@ I assumed lldb should be connecting from localhost and not 192.168.1.224. It was
 "Successful connection"
            caption =
 "The debugserver is no more rejecting connection."
-%}. 
-
+%}
 `lldb` is now able to connect to the debugserver.
 {% include image.html
            image = "/img/2020/debug-ios-binary-3.png"
@@ -57,6 +55,5 @@ I assumed lldb should be connecting from localhost and not 192.168.1.224. It was
 "lldb can reach the debugserver now"
            caption =
 "lldb can reach the debugserver now."
-%}. 
-
+%}
 `Happy debugging!!!`
