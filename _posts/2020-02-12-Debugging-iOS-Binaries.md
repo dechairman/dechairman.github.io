@@ -1,6 +1,6 @@
 
 ---
-layout: Post
+layout: post
 title: "Debugging iOS Binaries with LLDB (iOS 13) With Rejecting Incoming Connection Error"
 date: 2020-02-12
 author: Abbas Abdul Rahman
