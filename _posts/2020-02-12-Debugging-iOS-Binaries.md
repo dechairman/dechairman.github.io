@@ -18,9 +18,10 @@ To help with that, I have listed two articles that will be very helpful to anyon
 
 For a full write up, refer to the articles below:
 
-[Debugging iOS binaries with LLDB][dima kovalenko]by *Dima Kovalenko*.  
+1. [Debugging iOS binaries with LLDB][dima kovalenko] by *Dima Kovalenko*.  
 This post was written in 2016 targeting iOS 7 - 9 on ARM 32 and 64 bit processors.
-[The missing guide to debug third party apps on iOS 12][felipe cavalcanti]by *Felipe Cavalcanti*. This post was written as recently as Aug 2019.
+2. [The missing guide to debug third party apps on iOS 12][felipe cavalcanti] by *Felipe Cavalcanti*.  
+This post was written as recently as Aug 2019.
 
 These articles will walk you through setting up debugserver and even getting up and running with  remote iOS debugger in IDA Pro.
 The only problem is, these guides work up until the point where you try to hook lldb to a process listening on a port.  
