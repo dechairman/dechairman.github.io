@@ -27,9 +27,9 @@ These articles will walk you through setting up debugserver and even getting up 
 The only problem is, these guides work up until the point where you try to hook lldb to a process listening on a port.  
 See error on the last line of the image below.
 {% include image.html
-           image = "/img/2018/xcode-ios-command-line-4.png"
+           image = "/img/2020/debug-ios-binary-1.png"
            title =
-"Delete the header and add a main function"
+"Rejecting incoming connection"
            caption =
-"Delete the header and add a main function to the `.m` file."
+"Rejecting incoming connection."
 %}
