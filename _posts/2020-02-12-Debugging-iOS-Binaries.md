@@ -5,8 +5,8 @@ title: "Debugging iOS Binaries with LLDB (iOS 13) With Rejecting Incoming Connec
 date: 2020-02-12
 author: Abbas Abdul Rahman
 category: Security
-tags: iOS
-description: This write up is a bruteforce work around I came up with in debugging iOS binaries using LLDB. 
+tags: [iOS]
+description: > This write up is a bruteforce work around I came up with in debugging iOS binaries using LLDB. 
 Apple has done well to protect its technology stack so much so that even debugging external apps has a learning curve.
 ---
 
