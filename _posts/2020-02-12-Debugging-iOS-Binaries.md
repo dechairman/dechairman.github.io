@@ -26,3 +26,10 @@ This post was written as recently as Aug 2019.
 These articles will walk you through setting up debugserver and even getting up and running with  remote iOS debugger in IDA Pro.
 The only problem is, these guides work up until the point where you try to hook lldb to a process listening on a port.  
 See error on the last line of the image below.
+{% include image.html
+           image = "/img/2018/xcode-ios-command-line-4.png"
+           title =
+"Delete the header and add a main function"
+           caption =
+"Delete the header and add a main function to the `.m` file."
+%}
