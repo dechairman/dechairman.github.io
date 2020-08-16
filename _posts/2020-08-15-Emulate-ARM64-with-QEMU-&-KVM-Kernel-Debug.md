@@ -4,8 +4,8 @@ title: "Emulating ARM64 with QEMU/KVM on a Debian VMWARE guest VM for Kernel Deb
 date: 2020-08-15
 author: Abass Abdul-Rahaman
 categories: [Security]
-tags: [Linux],[Kernel],[Virtualization]
-description: This write up describe how to emulate arm64 on a VMware box. 
+tags: [Linux]
+description: This write up describe how to emulate arm64 on a VMware box.
 ---
 
 [QEMU]:https://en.wikipedia.org/wiki/QEMU
