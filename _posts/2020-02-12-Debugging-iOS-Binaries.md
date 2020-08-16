@@ -2,7 +2,7 @@
 layout: post
 title: "Debugging iOS Binaries with lldb"
 date: 2020-02-12
-author: Abbas Abdul Rahman
+author: Abass Abdul-Rahaman
 categories: [Security]
 tags: [iOS]
 description: This write up is a bruteforce work around I came up with in debugging iOS binaries using LLDB. 
