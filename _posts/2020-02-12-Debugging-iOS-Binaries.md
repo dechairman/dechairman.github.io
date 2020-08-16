@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Debugging iOS Binaries with LLDB (iOS 13) With Rejecting Incoming Connection Error"
+title: "Debugging iOS Binaries with lldb"
 date: 2020-02-12
 author: Abbas Abdul Rahman
 categories: [Security]
