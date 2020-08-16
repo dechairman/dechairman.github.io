@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Emulating ARM64 with QEMU/KVM on a Debian VMWARE guest VM for Kernel Debugging"
+title: "Emulating ARM64 with QEMU/KVM on a Debian guest VM"
 date: 2020-08-15
 author: Abass Abdul-Rahaman
 categories: [Security]
