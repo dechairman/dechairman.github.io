@@ -5,6 +5,7 @@ date: 2020-08-15
 author: Abass Abdul-Rahaman
 categories: [Security]
 tags: [Linux]
+hide: true
 description: This write up describe how to emulate arm64 on a VMware box.
 ---
 
@@ -24,7 +25,5 @@ Yes, I am installing a debian guest on top of another debian host which is a gue
 From this point, assume my main host is a linux box. We have to install the latest version of version of QEMU on our host.
 
 {% highlight bash %}
-
  sudo apt-get install qemu
- 
- {% endhighlight %}
+{% endhighlight %}
