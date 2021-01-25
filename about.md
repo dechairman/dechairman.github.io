@@ -5,4 +5,4 @@ permalink: /about/
 header-navigation: true
 ---
 
-Infrastructure. ALl things Systems, Site Reliability And Security Engineering to DevOps.
+Infrastructure. All things Systems, Site Reliability And Security Engineering to DevOps.
